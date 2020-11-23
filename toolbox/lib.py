@@ -64,6 +64,8 @@ def preprocessor(self, df_series):
     df_series = df_series.apply(lemmatizer)
     df_series = df_series.apply(list_concat)
     return df_series
+def hello():
+    print('hello')
 
 def clean_data(data):
     """ clean data
